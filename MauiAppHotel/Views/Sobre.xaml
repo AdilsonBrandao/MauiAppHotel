@@ -1,0 +1,33 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="Black">
+
+    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center" BackgroundColor="Black">
+
+        <Label Text="Sobre o Aplicativo"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" 
+               TextColor="White"/>
+
+        <Label Text="Desenvolvedor: Adilson Baptista Brandão"
+               FontSize="Medium"
+               HorizontalOptions="Center" 
+               TextColor="White"/>
+
+        <Label Text="Data de Desenvolvimento: 14/05/2025" 
+               FontSize="Medium"
+               HorizontalOptions="Center" 
+               TextColor="White"/>
+
+        <Button Text="Voltar"
+                Clicked="OnVoltarClicked"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Padding="10,5" />
+
+    </VerticalStackLayout>
+</ContentPage>
